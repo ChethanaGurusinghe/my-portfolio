@@ -298,4 +298,21 @@
   color: #ffffff;
 }
 
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+  font-weight: 600;
+}
+
+.contact-section .btn-primary {
+  background-color: #8e007a;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #6f005f;
+}
+
 
