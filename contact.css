@@ -1,0 +1,63 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(5, 10, 10);
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.contact-section {
+  background-color: #f8f9fa;
+}
+
+.contact-section h2 {
+  font-weight: 600;
+}
+
+.contact-section .btn-primary {
+  background-color: #8e007a;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #6f005f;
+}
+
+.custom-footer {
+  background-color: #8e007a; 
+  color: #ffffff;
+  position: absolute;
+  top: 1000px;
+  width: 100%;
+}
+
+.custom-footer .social-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+  opacity: 0.7;
+}
+
+.custom-footer .footer-text {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1050px) {
+  .custom-footer {
+    padding-top: 990px;
+  }
+}

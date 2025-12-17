@@ -1,0 +1,112 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(5, 10, 10);
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.my-image {
+    position: absolute;
+    top: 110px;
+    right: 700px;
+    border-radius: 50%;
+    border: 2px solid #9A0089;
+}
+
+.about-me {
+    position: absolute;
+    top: 320px;
+    right: 400px;
+    width: 650px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #866A99;
+
+}
+
+.my-details {
+    position: absolute;
+    top: 650px;
+    right: 380px;
+    width: 650px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #866A99;
+
+}
+
+@media (max-width: 1200px) {
+    .my-image {
+        right: 500px;
+        width: 200px;
+        height: 200px;
+    }
+    .about-me {
+        right: 300px;
+        width: 500px;
+    }
+    .my-details {
+        right: 300px;
+        width: 500px;
+    }
+}
+
+.btn-light {
+    position: absolute;
+    background-color: #fff;
+    color: #9A0089;
+    border: 2px solid #9A0089;
+    transition: background-color 0.3s, color 0.3s;
+    top: 1020px;
+    right: 770px;
+}
+
+.btn-light-1 {
+    position: absolute;
+    background-color: #fff;
+    color: #9A0089;
+    border: 2px solid #9A0089;
+    transition: background-color 0.3s, color 0.3s;
+    top: 1020px;
+    right: 650px;
+}
+
+.custom-footer {
+  background-color: #8e007a; 
+  color: #ffffff;
+  position: absolute;
+  top: 1090px;
+  width: 100%;
+}
+
+.custom-footer .social-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+  opacity: 0.7;
+}
+
+.custom-footer .footer-text {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1050px) {
+  .custom-footer {
+    padding-top: 1050px;
+  }
+}
