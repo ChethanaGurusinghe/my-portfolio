@@ -164,3 +164,23 @@
         width: 500px;
     }
 }
+
+.btn-light {
+    position: absolute;
+    background-color: #fff;
+    color: #9A0089;
+    border: 2px solid #9A0089;
+    transition: background-color 0.3s, color 0.3s;
+    top: 1020px;
+    right: 770px;
+}
+
+.btn-light-1 {
+    position: absolute;
+    background-color: #fff;
+    color: #9A0089;
+    border: 2px solid #9A0089;
+    transition: background-color 0.3s, color 0.3s;
+    top: 1020px;
+    right: 650px;
+}
