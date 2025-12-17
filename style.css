@@ -184,3 +184,33 @@
     top: 1020px;
     right: 650px;
 }
+
+.custom-footer {
+  background-color: #8e007a; 
+  color: #ffffff;
+  position: absolute;
+  top: 1090px;
+  width: 100%;
+}
+
+.custom-footer .social-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+  opacity: 0.7;
+}
+
+.custom-footer .footer-text {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1050px) {
+  .custom-footer {
+    padding-top: 1050px;
+  }
+}
+
