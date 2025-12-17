@@ -1,0 +1,145 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(5, 10, 10);
+}
+
+.navbar-nav .nav-link {
+    transition: all 0.3s ease;
+    border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.custom-footer {
+  background-color: #8e007a; 
+  color: #ffffff;
+  position: absolute;
+  top: 2300px;
+  width: 100%;
+}
+
+.custom-footer .social-icon {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+  opacity: 0.7;
+}
+
+.custom-footer .footer-text {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 1500px) {
+  .custom-footer {
+    padding-top: 1500px;
+  }
+}
+
+.skills-section {
+  background-color: #ffffff;
+}
+
+.skills-card {
+  background: linear-gradient(135deg, #ddb6ff, #8e6fa6);
+  border-radius: 10px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.skill-box {
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-5px);
+}
+
+.skill-box i {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.skill-box p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.projects-section {
+  background-color: #ffffff;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-content h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.tech-stack span {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.btn-project {
+  background-color: #6b21a8;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+.btn-project:hover {
+  background-color: #581c87;
+  color: #ffffff;
+}
