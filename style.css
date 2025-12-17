@@ -19,7 +19,7 @@
 .hero-section {
     min-height: 90vh;
     display: flex;
-    /* align-items: center; */
+    
     padding-top: 90px;
     margin-left: -20px;
     background: linear-gradient(
@@ -47,7 +47,7 @@
     margin-left: -50px;
     overflow: hidden;
 
-    border: 4px solid #000; 
+    border: 4px solid #9A0089; 
     background-color: #e6e6e6; 
 }
 
@@ -117,4 +117,50 @@
 .button-class {
     margin-left: -75px;
     margin-top: 30px;
+}
+
+.my-image {
+    position: absolute;
+    top: 110px;
+    right: 700px;
+    border-radius: 50%;
+    border: 2px solid #9A0089;
+}
+
+.about-me {
+    position: absolute;
+    top: 320px;
+    right: 400px;
+    width: 650px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #866A99;
+
+}
+
+.my-details {
+    position: absolute;
+    top: 650px;
+    right: 380px;
+    width: 650px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #866A99;
+
+}
+
+@media (max-width: 1200px) {
+    .my-image {
+        right: 500px;
+        width: 200px;
+        height: 200px;
+    }
+    .about-me {
+        right: 300px;
+        width: 500px;
+    }
+    .my-details {
+        right: 300px;
+        width: 500px;
+    }
 }
