@@ -1,3 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #866A99;
+    margin: 0;
+    padding: 0;
+}
+
+.my-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #9A0089;
+    object-fit: cover;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.my-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-details td {
+    padding: 8px;
+}
+
+/* Buttons */
+.button-links a {
+    background-color: #fff;
+    color: #9A0089;
+    border: 2px solid #9A0089;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button-links a:hover {
+    background-color: #9A0089;
+    color: #fff;
+}
+
+/* Footer */
+.custom-footer {
+    background-color: #8e007a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.custom-footer .social-icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: opacity 0.3s ease;
+}
+
+.custom-footer .social-icon:hover {
+    opacity: 0.7;
+}
+
+.custom-footer .footer-text {
+    font-size: 0.9rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .my-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about-me p {
+        font-size: 14px;
+    }
+
+    .button-links a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .my-details td {
+        font-size: 14px;
+    }
+}
+
 .navbar-nav .nav-link {
     transition: color 0.3s ease;
 }
@@ -14,109 +104,4 @@
 .navbar-nav .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.3);
     color: #000;
-}
-
-.my-image {
-    position: absolute;
-    top: 110px;
-    right: 700px;
-    border-radius: 50%;
-    border: 2px solid #9A0089;
-}
-
-.about-me {
-    position: absolute;
-    top: 320px;
-    right: 400px;
-    width: 650px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #866A99;
-
-}
-
-.my-details {
-    position: absolute;
-    top: 650px;
-    right: 380px;
-    width: 650px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #866A99;
-
-}
-
-@media (max-width: 1200px) {
-    .my-image {
-        right: 500px;
-        width: 200px;
-        height: 200px;
-    }
-    .about-me {
-        right: 300px;
-        width: 500px;
-    }
-    .my-details {
-        right: 300px;
-        width: 500px;
-    }
-}
-
-.btn-light {
-    position: absolute;
-    background-color: #fff;
-    color: #9A0089;
-    border: 2px solid #9A0089;
-    transition: background-color 0.3s, color 0.3s;
-    top: 1020px;
-    right: 790px;
-}
-
-.btn-light-1 {
-    position: absolute;
-    background-color: #fff;
-    color: #9A0089;
-    border: 2px solid #9A0089;
-    transition: background-color 0.3s, color 0.3s;
-    top: 1020px;
-    right: 645px;
-}
-
-.btn-light-2 {
-    position: absolute;
-    background-color: #fff;
-    color: #9A0089;
-    border: 2px solid #9A0089;
-    transition: background-color 0.3s, color 0.3s;
-    top: 1020px;
-    right: 530px;
-}
-
-.custom-footer {
-  background-color: #8e007a; 
-  color: #ffffff;
-  position: absolute;
-  top: 1090px;
-  width: 100%;
-}
-
-.custom-footer .social-icon {
-  color: #ffffff;
-  font-size: 1.5rem;
-  text-decoration: none;
-  transition: opacity 0.3s ease;
-}
-
-.custom-footer .social-icon:hover {
-  opacity: 0.7;
-}
-
-.custom-footer .footer-text {
-  font-size: 0.9rem;
-}
-
-@media (max-width: 1050px) {
-  .custom-footer {
-    padding-top: 1050px;
-  }
 }

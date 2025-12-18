@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>about</title>
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous">
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="about.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-    </head>
-    <body>
-        <div class="container-fluat" style="background-color: #9A0089;">
+<!-- Navbar -->
+<div class="container-fluat" style="background-color: #9A0089;">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button"
@@ -53,15 +47,20 @@
             </nav>
         </div>
 
-        <img class="my-image" width="200px" height="200px" src="/img/girl.png"
-            alt>
+<!-- About Content -->
+<div class="container my-5 about-container">
+    <!-- Image -->
+    <div class="text-center mb-4">
+        <img class="my-image" src="/img/girl.png" alt="Profile">
+    </div>
 
-        <p class="about-me">
-            Hi ! I’m Chethana, a motivated IT student currently following the
-            <b>iCET Certified Developer</b> Diploma at iCET. I’m building a
-            strong
-            foundation in software development, databases, and web
-            technologies, with a keen interest in understanding how
+    <!-- About Text -->
+    <div class="about-me mb-4">
+        <p>
+            Hi! I’m Chethana, a motivated IT student currently following the
+            <b>iCET Certified Developer</b> Diploma at iCET. I’m building a strong
+            foundation in software development, databases, and web technologies,
+            with a keen interest in understanding how
             systems work from both a technical and practical perspective.
             I run a personal tech blog called <b>LoopCraft</b>, where I share
             what
@@ -79,77 +78,55 @@
             that help me evolve into a confident and capable software
             professional.Feel free to reach out—let’s learn and grow together!
         </p>
+    </div>
 
-        <div class="my-details">
-            <table cellpadding="15" cellspacing="3">
+    <!-- Details Table -->
+    <div class="my-details mb-4">
+        <table class="table table-bordered">
+            <tbody>
                 <tr>
-                    <td><b>Name :</b> Chethana Gurusinghe</td>
-                    <td><b>Date of Birth :</b> 27th May 2005</td>
+                    <td><b>Name:</b> Chethana Gurusinghe</td>
+                    <td><b>Date of Birth:</b> 27th May 2005</td>
                 </tr>
                 <tr>
-                    <td><b>Education : </b> iCET Certified
-                        Developer(Ongoing)</td>
-                    <td><b>Status : </b> Student / Aspiring Software
-                        Developer</td>
+                    <td><b>Education:</b> iCET Certified Developer (Ongoing)</td>
+                    <td><b>Status:</b> Student / Aspiring Software Developer</td>
                 </tr>
                 <tr>
-                    <td><b>Experience : </b>Entry-Level / Learning Phase</td>
-                    <td><b>Blog :</b>LoopCraft</td>
+                    <td><b>Experience:</b> Entry-Level / Learning Phase</td>
+                    <td><b>Blog:</b> LoopCraft</td>
                 </tr>
                 <tr>
-                    <td><b>Phone : </b>+94 768957378</td>
-                    <td><b>Email : </b>chethanapersonal2005@gmail.com</td>
+                    <td><b>Phone:</b> +94 768957378</td>
+                    <td><b>Email:</b> chethanapersonal2005@gmail.com</td>
                 </tr>
                 <tr>
-                    <td>
-                        <b>Freelance : </b> Not Available (Currently Learning)
-                    </td>
+                    <td colspan="2"><b>Freelance:</b> Not Available (Currently Learning)</td>
                 </tr>
-            </table>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-links d-flex flex-wrap justify-content-center gap-3 mb-5">
+        <a href="https://www.linkedin.com/in/chethana-gurusinghe-1822b8347" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ChethanaGurusinghe" target="_blank">GitHub</a>
+        <a href="https://chethanapersonal2005-rdsin.wordpress.com" target="_blank">Blog</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="custom-footer">
+    <div class="container text-center py-4">
+        <div class="mb-3">
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon me-3"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com" target="_blank" class="social-icon"><i class="bi bi-github"></i></a>
         </div>
-        <div class>
-            <a class="btn btn-light px-4"
-                href="https://www.linkedin.com/in/chethana-gurusinghe-1822b8347"
-                target="_blank"
-                rel="noopener noreferrer">
-                LinkedIn
-            </a>
-            <a class="btn btn-light-1 px-4"
-                href="https://github.com/ChethanaGurusinghe"
-                target="_blank"
-                rel="noopener noreferrer">
-                GitHub
-            </a>
-
-            <a class="btn btn-light-2 px-4"
-                href="https://chethanapersonal2005-rdsin.wordpress.com"
-                target="_blank"
-                rel="noopener noreferrer">
-                Blog
-            </a>
-
+        <div class="footer-text">
+            © 2025 Chethana Gurusinghe. All rights reserved.
         </div>
+    </div>
+</footer>
 
-        <footer class="custom-footer">
-            <div class="container text-center py-4">
-
-                <div class="mb-3">
-                    <a href="https://www.linkedin.com" target="_blank"
-                        class="social-icon me-3" aria-label="LinkedIn">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                    <a href="https://github.com" target="_blank"
-                        class="social-icon" aria-label="GitHub">
-                        <i class="bi bi-github"></i>
-                    </a>
-                </div>
-
-                <div class="footer-text">
-                    © 2025 Chethana Gurusinghe. All rights reserved.
-                </div>
-
-            </div>
-        </footer>
-
-    </body>
+</body>
 </html>

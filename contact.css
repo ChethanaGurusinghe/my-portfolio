@@ -36,8 +36,8 @@
 .custom-footer {
   background-color: #8e007a; 
   color: #ffffff;
-  position: absolute;
-  top: 1000px;
+  position: relative;
+  /* top: 1000px; */
   width: 100%;
 }
 
@@ -58,6 +58,6 @@
 
 @media (max-width: 1050px) {
   .custom-footer {
-    padding-top: 990px;
+    /* padding-top: 990px; */
   }
 }

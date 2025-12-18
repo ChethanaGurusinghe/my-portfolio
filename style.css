@@ -119,6 +119,62 @@
     margin-top: 30px;
 }
 
+/* Existing styles remain unchanged... */
+
+/* Hero section responsiveness */
+@media (max-width: 992px) {
+    .hero-section .row {
+        flex-direction: column-reverse; /* Image below text */
+        text-align: center;
+    }
+
+    .profile-circle {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .my-name1 {
+        text-indent: 0;
+        font-size: 2rem;
+    }
+
+    .card-container {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .button-class {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .first-line {
+        text-indent: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-circle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .my-name1 {
+        font-size: 1.5rem;
+    }
+
+    .card {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .button-class a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
 
 
 

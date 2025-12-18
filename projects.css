@@ -19,8 +19,7 @@
 .custom-footer {
   background-color: #8e007a; 
   color: #ffffff;
-  position: absolute;
-  top: 2300px;
+  position: relative;
   width: 100%;
 }
 
@@ -41,7 +40,7 @@
 
 @media (max-width: 1500px) {
   .custom-footer {
-    padding-top: 1500px;
+    /* padding-top: 1500px; */
   }
 }
 
