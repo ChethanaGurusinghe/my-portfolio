@@ -119,12 +119,10 @@
     margin-top: 30px;
 }
 
-/* Existing styles remain unchanged... */
 
-/* Hero section responsiveness */
 @media (max-width: 992px) {
     .hero-section .row {
-        flex-direction: column-reverse; /* Image below text */
+        flex-direction: column-reverse; 
         text-align: center;
     }
 
