@@ -105,11 +105,13 @@
 
 .button-class {
     margin-top: 20px;
+    margin-top: 1rem;
 }
 
 @media (max-width: 576px) {
     .button-class {
         justify-content: center;
+        margin-top: 0.5rem;
     }
 }
 
